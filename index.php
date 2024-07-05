@@ -166,7 +166,7 @@
                             </p>
                         </div>
                         <div class="text-center">
-                            <img src="https://i.imgur.com/bDLhJiP.jpg" width="100" class="rounded-circle">
+                            <img src="img/exec_pics/Selena_Watson.jpg" width="100" height="100" class="rounded-circle">
                         </div>
                         <div class="text-center mt-3">
                             <span class="bg-secondary p-1 px-4 rounded text-white">CMO</span>
