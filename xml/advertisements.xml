@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<advertisements>
+    <advertisement>
+        <title>Gizmo Tech Security Services</title>
+        <video>video/GTSS Advertisement.mp4</video>
+        <link>index.php</link>
+        <description>Protect your family, your home, your office, your vehicle under one umbrella. Your one stop shop for security.</description>
+    </advertisement>
+    <advertisement>
+        <title>Pro Series with ColorVu and Smart Hybrid Light</title>
+        <image>img/Meet-Hikvisions-newest-Pro-Cameras.jpg</image>
+        <link>https://www.hikvision.com/en/products/IP-Products/Network-Cameras/colorvu-products</link>
+        <description>To address a wide range of security needs and scenarios, as well as maximize security at night and in other low-light environments,
+         Hikvision has further developed ColorVu technology, combining it with other advanced technologies, like panoramic, varifocal, 4K, AI, and more.</description>
+    </advertisement>
+    <advertisement>
+        <title>Companies Office Of jamaica</title>
+        <video>video/Companies Office of Jamaica Ad.mp4</video>
+        <link>https://www.orcjamaica.com/?AspxAutoDetectCookieSupport=1</link>
+        <description>No need to come into the office, register your business anytime and anywhere you please with our new online registration portal.</description>
+    </advertisement>
+    <advertisement>
+        <title>Nexxt Solutions Infrastructure</title>
+        <image>img/utp-cable-cat6.jpg</image>
+        <link>https://www.nexxtsolutions.com/infrastructure/products/copper-systems/cat6-250mhz/cat6-bulk-cable/</link>
+        <description>Build a robust network with Nexxt Infrastructure's Bulk Cable Cat6 250 Mhz. Reliable and fast for all your networking needs. Get it now!.</description>
+    </advertisement>
+    <advertisement>
+        <title>Sagicor SME</title>
+        <video>video/Sagicor Bank SME Support.mp4</video>
+        <link>https://www.sagicor.com/en-JM/Business-Solutions/Banking/SME%20Business%20Banking</link>
+        <description>Dont wait to start your own business. Visit Sagicor Business SME today. Make your first step, choose Sagicor. </description>
+    </advertisement>
+    <advertisement>
+        <title>Ad Title 2</title>
+        <image>https://via.placeholder.com/150</image>
+        <link>https://example.com/ad2</link>
+        <description>This is the second advertisement.</description>
+    </advertisement>
+    <advertisement>
+        <title>Gizmo Tech Security Services</title>
+        <video>video/NCB Jamaica SME Your SMALL Banking Business Partner.mp4</video>
+        <link>https://www.jncb.com/sme/</link>
+        <description>
+            We’re here to support you through challenging times. SMEs can access millions in funding at competitive interest rates. 
+            Special funding is now available to SMEs to sustain operations, explore new business ventures, or make investments in 
+            energy saving, small-scale irrigation or business expansion projects.
+        </description>
+    </advertisement>
+    <advertisement>
+        <title>Ad Title 2</title>
+        <image>https://via.placeholder.com/150</image>
+        <link>https://example.com/ad2</link>
+        <description>This is the second advertisement.</description>
+    </advertisement>
+</advertisements>
