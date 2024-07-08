@@ -21,6 +21,9 @@
         background-size: cover;
         background-position: center center;
         }
+        h3{
+            font-family: 'times', sans-serif;
+        }
     </style>
 </head>
 <body>
@@ -38,7 +41,7 @@
                 <div class="container">
                 <div class="row">
                     <div class="col-lg-10 col-xl-7 mx-auto">
-                    <h3 class="display-4 text-center" >GTSS login</h3>
+                    <h3 class="display-4 text-center " >GTSS Login</h3>
                     <p class="text-muted mb-4 text-center">login to pick up where you left off.</p>
                     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
                         <div class="form-group mb-3">

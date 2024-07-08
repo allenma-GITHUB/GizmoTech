@@ -22,6 +22,7 @@
         <style>
             .welcome-notes {
                 margin-top: 20px;
+                
             }
             .side-panel {
                 background-color: #f8f9fa;
@@ -54,7 +55,7 @@
         <div class="container-fluid">
             <div class="row">
                 <!-- Main content area -->
-                <div class="col-md-9">
+                <div class="col-md-9 mcb-background-overlay">
                     <div class="welcome-notes">
                         <h1 class="text-center">Welcome to GTSS</h1>
                         <div class="rounded-2 p-2">
