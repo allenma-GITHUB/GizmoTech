@@ -70,8 +70,8 @@
                         <input type="email" required>
                         <span>Email Address:</span>
                     </div>
-                    <div class="input-box">
-                        <textarea required></textarea>
+                   <div class="input-box">
+                        <textarea rows="5" required></textarea>
                         <span>Type your message .......</span>
                     </div>
                     <div class="input-box">
