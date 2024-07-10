@@ -1,10 +1,10 @@
 <?php
 ?>
 <header>
-    <nav class="navbar navbar-expand-lg bg-secondary fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #e3f2fd">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.php">
-                <img src="img/logo.png" alt="Bootstrap" width="50" height="40">
+                <img src="img/logo.png" alt="Bootstrap" width="60" height="60">
             </a>
             <a class="navbar-brand" href="index.php">GIZMO TECH SECURITY SERVICES</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,7 +19,7 @@
                         <a class="nav-link" href="products.php">Catalogue</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact_us">Contact Us</a>
+                        <a class="nav-link" href="contact_us.php">Contact Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="products.php">Products</a>

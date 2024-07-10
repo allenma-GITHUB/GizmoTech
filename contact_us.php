@@ -8,12 +8,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="contact_wus.css">
+    <link rel="stylesheet" href="css/contact_us.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-3l5+GcOK/4lQdDjz5wWm+qP+f7UznPd0rp3L9FtZAY0QgkgyC6O22ECw3sF1S5+QZgyKJl0jGMQKYl1A4Of3yQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>GTSS: <?php echo $title; ?></title>
 </head>
-<body>
-
     <section>
         <div class="container">
             <div class="row justify-content-md-center">
@@ -56,6 +54,12 @@
                         <p>example@gmail.com</p>
                     </div>
                 </div>
+                <div class="social-icons">
+                    <a href="#"><img src="img/contact/whatsapp.jpeg" alt="WhatsApp"></a>
+                    <a href="#"><img src="img/contact/twitter.png" alt="Twitter"></a>
+                    <a href="#"><img src="img/contact/instagram.png" alt="Instagram"></a>
+                    <a href="#"><img src="img/contact/facebook.png" alt="Facebook"></a>
+                </div>
             </div>
         </div>
     </section>
@@ -64,7 +68,7 @@
             <div class="row justify-content-lg-center">
                 <div class="col-12 col-lg-9">
                     <div class="bg-white border rounded shadow-sm overflow-hidden">
-                        <form action="#!">
+                        <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
                             <div class="row gy-4 gy-xl-5 p-4 p-xl-5">
                                 <h5 class="mb-0 display-11 text-center" style="color: red; display:none">Please note: all fields are required</h5>
                                 <div class="col-12">
@@ -113,6 +117,9 @@
             </div>
         </div>
     </section>
+    <?php
+        include("phpdocs/footer.php")
+    ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>

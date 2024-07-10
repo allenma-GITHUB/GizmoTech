@@ -47,6 +47,17 @@
                 margin-bottom: 10px;
             }
         </style>
+        <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function () {
+                    navLinks.forEach(navLink => navLink.classList.remove('active'));
+                    this.classList.add('active');
+                });
+            });
+        });
+    </script>
     </head>
     <body>
         <?php
@@ -211,6 +222,9 @@
                     </div>
                 </div>
             </div>
+            <?php
+                include("phpdocs/footer.php");
+            ?>
             <script>
             // JavaScript to handle the ad rotation
             const ads = <?php echo $adsJson; ?>;
