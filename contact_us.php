@@ -1,4 +1,4 @@
-<section?php
+<?php
     $title = "Contact Us";
 ?>
 
@@ -56,7 +56,7 @@
                     </div>
                 </div>
                 <div class="social-icons">
-                    <a href="#"><img src="img/contact/whatsapp.jpeg" alt="WhatsApp"></a>
+                    <a href="https://api.whatsapp.com/send/?phone=18765744364&text&type=phone_number&app_absent=0"><img src="img/contact/whatsapp.jpeg" alt="WhatsApp"></a>
                     <a href="#"><img src="img/contact/twitter.png" alt="Twitter"></a>
                     <a href="#"><img src="img/contact/instagram.png" alt="Instagram"></a>
                     <a href="#"><img src="img/contact/facebook.png" alt="Facebook"></a>

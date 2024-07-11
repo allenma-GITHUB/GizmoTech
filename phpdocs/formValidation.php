@@ -38,15 +38,15 @@
             $lastName = sanitizeInput($_POST["lastname"]);
         }
 
-        // Validate and sanitize Address address
+        // Validate and sanitize address
         if (empty($_POST["address"])) {
-            $emailAddressErr = "Address is required";
+            $addressErr = "Address is required";
         } else {
             $address = sanitizeInput($_POST["address"]);
-            
         }
-         // Validate and sanitize email address
-         if (empty($_POST["email"])) {
+
+        // Validate and sanitize email address
+        if (empty($_POST["email"])) {
             $emailAddressErr = "Email Address is required";
         } else {
             $emailAddress = sanitizeInput($_POST["email"]);
@@ -54,12 +54,13 @@
                 $emailAddressErr = "Invalid email format";
             }
         }
-         // Validate and sanitize email address
-         if (empty($_POST["phonenumber"])) {
+
+        // Validate and sanitize phone number
+        if (empty($_POST["phonenumber"])) {
             $phoneErr = "Phone Number is required";
         } else {
             $phone = sanitizeInput($_POST["phonenumber"]);
-           
+        }
 
         // Validate and sanitize password
         if (empty($_POST["password"])) {
@@ -82,11 +83,8 @@
         if (empty($firstNameErr) && empty($lastNameErr) && empty($addressErr) && empty($emailAddressErr) && empty($phoneErr) && empty($passwordErr) && empty($confirmPasswordErr)) {
             $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
 
-            // Generate a username based on the last name and first two characters of the first name
-            // $username = strtolower($lastName) . strtolower(substr($firstName, 0, 2)) . "TT";
-
-            // SQL query to insert user data into the 'timbuktu_users' table
-            $sql = "INSERT INTO customers(emailAddress, firstName, lastName, address, phoneNumber, passWord) VALUES ('$emailAddress', '$firstName', '$lastName', '$address', '$phone', '$hashedPassword')";
+            // SQL query to insert user data into the 'customers' table
+            $sql = "INSERT INTO customers (emailAddress, firstName, lastName, address, phoneNumber, passWord) VALUES ('$emailAddress', '$firstName', '$lastName', '$address', '$phone', '$hashedPassword')";
 
             // Execute the SQL query
             if ($dbConn->query($sql) === TRUE) {
@@ -96,6 +94,7 @@
                 exit();
             } else {
                 // Display an error message if the SQL query fails
+                error_log("Error: " . $sql . " - " . $dbConn->error);
                 echo "Error: " . $sql . "<br>" . $dbConn->error;
             }
         }
@@ -105,5 +104,5 @@
     $dbConn->close();
 
     // Include the 'mailTo.php' file
-    //include('mailTo.php');
-    }
+    include('phpdocs/mailTo.php');
+
