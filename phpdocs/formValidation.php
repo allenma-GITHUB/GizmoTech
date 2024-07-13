@@ -90,7 +90,9 @@
             if ($dbConn->query($sql) === TRUE) {
                 // Set a session variable indicating successful registration and redirect to login page
                 $_SESSION['registration_success'] = true;
-                header("Location: login.php");
+                $_SESSION['userEmail'] = $emailAddress;
+                $_SESSION['userFirstName'] = $firstName;
+                header("Location: phpdocs/mailTo.php");
                 exit();
             } else {
                 // Display an error message if the SQL query fails
@@ -102,7 +104,3 @@
 
     // Close the database connection
     $dbConn->close();
-
-    // Include the 'mailTo.php' file
-    include('phpdocs/mailTo.php');
-
