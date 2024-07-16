@@ -1,12 +1,12 @@
 <?php
 ?>
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #e3f2fd">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" >
         <div class="container-fluid">
             <a class="navbar-brand" href="index.php">
                 <img src="img/logo.png" alt="Bootstrap" width="60" height="60">
             </a>
-            <a class="navbar-brand" href="index.php">GIZMO TECH SECURITY SERVICES</a>
+            <a class="navbar-brand" href="index.php" id="flaming-text">GIZMO TECH SECURITY SERVICES</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -48,10 +48,24 @@
                         <a class="nav-link disabled" aria-disabled="true">Disabled</a>
                     </li>
                 </ul>
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" >
-                <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+                <div class="container d-flex justify-content-between align-items-center">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form> 
+                    <!-- <section>  
+                        <div id="userDropdown">
+                            <span id="userinfo" style="font-size: small;">
+                                <p>Guest</p>
+                            </span>  
+                            <div id="userDropdownContent">
+                                <a href="#profile">Profile</a>
+                                <a href="#settings">Settings</a>
+                                <a href="#logout">Logout</a>
+                            </div>
+                        </div>
+                    </section> -->
+                </div>
             </div>
         </div>
     </nav>

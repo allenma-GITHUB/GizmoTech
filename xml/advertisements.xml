@@ -32,12 +32,6 @@
         <description>Dont wait to start your own business. Visit Sagicor Business SME today. Make your first step, choose Sagicor. </description>
     </advertisement>
     <advertisement>
-        <title></title>
-        <image>https://via.placeholder.com/150</image>
-        <link>https://example.com/ad2</link>
-        <description>This is the second advertisement.</description>
-    </advertisement>
-    <advertisement>
         <title>Gizmo Tech Security Services</title>
         <video>video/NCB Jamaica SME Your SMALL Banking Business Partner.mp4</video>
         <link>https://www.jncb.com/sme/</link>
@@ -46,11 +40,5 @@
             Special funding is now available to SMEs to sustain operations, explore new business ventures, or make investments in 
             energy saving, small-scale irrigation or business expansion projects.
         </description>
-    </advertisement>
-    <advertisement>
-        <title>Ad Title 2</title>
-        <image>https://via.placeholder.com/150</image>
-        <link>https://example.com/ad2</link>
-        <description>This is the second advertisement.</description>
     </advertisement>
 </advertisements>
